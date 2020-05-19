@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@import url("gallery.css");
+
+
+.videoWrapper {
+	align-content: center;
+	display: block;
+	text-align: center;
+}
+
+.container-index {
+	width: 100%;
+	max_width: 1000px;
+	background: #7D0D38;
+	color: lemonchiffon;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	height: 340px;
+	
+}
+.container {
+	width: 100%;
+	max_width: 1000px;
+	background: #7D0D38;
+	color: lemonchiffon;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+}
+.container_thoughts{
+	background: #7D0D38;
+	color: lemonchiffon;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	width 100%;
+	padding: 30px;
+	height: 590px;
+	
+}
+
+.cingraph{
+  display: block;
+  float:left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  vertical-align: top;
+
+}
+
+.gallery {
+	margin: 10px 10px;
+	text-align: center;
+}
+
+.gallery_puzzle {
+	text-align: center;
+	margin: 20px;
+
+}
+
+
+.gallery img {
+	width: 230px;
+	height: 230px;
+	padding: 5px;
+	transition: 0.5s;
+}
+.gallery img:hover {
+	transform: scale(1.1);
+	
+}
+
+.fa {
+  font-size: 60px;
+  display: block;
+  padding: 20px;
+  padding-right: 0px; 
+  text-decoration: none;
+}
+
+.connect {
+	display: block;
+	background-color: lemonchiffon;
+	color: black;
+	font-size: 20pt;
+
+}
+
+.author{
+	font-size: 18px;
+	color:lightpink;
+}
+
+
+.connect a:link, .connect a:disabled, .connect a:visited {
+    font-size: 10pt;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	color: darkblue;
+
+}
+.connect a:hover {
+	text-decoration: underline;
+}
+
+.Label {
+	font-size: 38px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #C11455;
+}
+
+.name {
+	padding-top: 30px;
+	padding-left: 25px;
+	font-family: 'Berkshire Swash', cursive;
+	color: aqua;
+    background: transparent;
+	font-size: 100px;
+	
+}
+
+.name_gallery{
+	padding-top: 5px;
+	padding-left: 25px;
+	padding-bottom: 5px;
+	font-family: 'Berkshire Swash', cursive;
+	color: #1E0505;
+    background: transparent;
+	font-size: 55px;
+	text-align: center;
+}
+
+.thoughts_name{
+	color:black;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	font-size: 55px;
+	
+}
+
+.toc{
+	padding-bottom: 15px;
+	padding-top: 5px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	color: #7D0D38;
+	
+}
+
+
+.parallax{
+	background: url("../images/sunset.jpeg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+	width: 100%;
+
+}
+
+
+.sig{
+	color: lemonchiffon;
+	font-size: 20;
+	font-family: 'Josefin Sans', sans-serif;
+	background: transparent;
+	margin-top: -20px;
+	padding-left: 75px;
+}
+
+#navlinks {
+	text-align: right;
+	background-color: pink;
+	font-size: 7;
+	padding-top: 7px;
+	height: 30px;
+	margin:0;
+	
+}
+#wrapper {
+	background-color: #B0EBCA;
+	width: 100%;
+	margin: auto auto;
+}
+
+
+li {
+	padding: 25px;
+  	display: inline;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
+	text-decoration: underline;
+	color: #F68979;
+}
+
+#toclinks a:hover{
+	text-decoration: underline;
+}
+
+
+footer {
+	clear: left;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #3E0A1E;
+	font-family: 'Berkshire Swash', cursive;
+	color: #D0B1B2;
+	font-size: x-small;
+}
